@@ -1,0 +1,38 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    background-color: #010409;
+}
+
+.box-br {
+    width: 500px;
+    height: 555px;
+    position: absolute;
+    background-color: transparent;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.b1 {
+    width: 4px;
+    height: 4px;
+    padding: 4px;
+    margin: 1px;
+    border-radius: 5px;
+    display: inline-block;
+    background-color: white;
+}
+
+.transparente-b1 {
+    background-color: transparent;
+}
